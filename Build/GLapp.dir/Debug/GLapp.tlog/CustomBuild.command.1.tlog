@@ -1,0 +1,10 @@
+^D:\DOCUMENTS\CODE\CMSC 435\CG22\GLAPP\CMAKELISTS.TXT
+setlocal
+D:\Tools\Cmake\bin\cmake.exe "-SD:/Documents/Code/CMSC 435/cg22/GLapp" "-BD:/Documents/Code/CMSC 435/cg22/GLapp/Build" --check-stamp-file "D:/Documents/Code/CMSC 435/cg22/GLapp/Build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

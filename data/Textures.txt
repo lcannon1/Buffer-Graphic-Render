@@ -1,0 +1,7 @@
+Paving and Rocks textures come from cc0textures.com with the following changes
+
+- Converted to ppm and resized to 512x512 from the 2K originals
+- Roughness, Displacement, and AmbientOcclusion maps packed into *-props.ppm
+
+paving-*.ppm: https://cc0textures.com/view?id=PavingStones053
+rocks-*.ppm: https://cc0textures.com/view?id=Rocks023

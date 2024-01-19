@@ -1,0 +1,9 @@
+Castle model by 3D Regenerator on TF3DM
+http://tf3dm.com/3d-model/castle-43181.html
+License: Free for Personal Use and Educational Purposes
+
+Processed through MeshLab (meshlab.sourceforge.net) to rotate to z-up and add normals.
+
+Images converted to PPM format with ImageMagick (imagemagick.org)
+
+Minor manual editing of obj and mtl for to change file names and set Ks to 0

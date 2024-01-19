@@ -1,0 +1,10 @@
+^D:\DOCUMENTS\CODE\CMSC 435\CG22\GLAPP\BUILD\CMAKEFILES\034E44E0CF0BBE3EDDE8179910E6BAA2\GENERATE.STAMP.RULE
+setlocal
+D:\Tools\Cmake\bin\cmake.exe "-SD:/Documents/Code/CMSC 435/cg22/GLapp" "-BD:/Documents/Code/CMSC 435/cg22/GLapp/Build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "D:/Documents/Code/CMSC 435/cg22/GLapp/Build/GLapp.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
